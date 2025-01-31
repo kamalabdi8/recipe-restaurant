@@ -1,0 +1,70 @@
+/* App.css */
+.App {
+  text-align: center;
+  background-color: #ff7f00; /* Orange background */
+  padding: 20px;
+}
+
+.App-header {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input,
+textarea,
+select {
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.recipes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.recipe-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.recipe-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
